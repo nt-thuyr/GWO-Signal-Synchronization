@@ -1,6 +1,6 @@
 import numpy as np
-from GWO_standard import GWO          # Import "Bộ não"
-from Problem_Model import SignalSyncProblem # Import "Đề bài"
+from standard.gwo_standard import GWO          # Import "Bộ não"
+from problem_model import SignalSyncProblem # Import "Đề bài"
 
 # 1. Khởi tạo bài toán
 problem = SignalSyncProblem(num_symbols=100, Fs=20, noise_power=0.1)

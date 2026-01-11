@@ -1,7 +1,7 @@
 import numpy as np
 import time
-from GWO_standard import GWO
-from Problem_Model import SignalSyncProblem
+from gwo_standard import GWO
+from problem_model import SignalSyncProblem
 
 # 1. Định nghĩa các danh sách tham số cần thử
 wolves_list = [30, 50, 100]
