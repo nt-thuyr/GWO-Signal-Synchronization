@@ -74,7 +74,7 @@ class GWO:
                 new_pos = (new_pos_follow_alpha + new_pos_follow_beta + new_pos_follow_delta) / 3
                 self.positions[i] = new_pos
                     
-            print(f"Iter {t}: Best Fitness = {self.alpha_score:.5f}")
+            # print(f"Iter {t}: Best Fitness = {self.alpha_score:.5f}")
             convergence_curve.append(self.alpha_score)
         
         return self.alpha_pos, self.alpha_score, convergence_curve

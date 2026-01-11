@@ -8,8 +8,8 @@ problem = SignalSyncProblem(num_symbols=100, Fs=20, noise_power=0.1)
 # 2. Lấy cấu hình từ bài toán
 lb, ub = problem.get_bounds()
 dim = 2             # 2 biến: Tau và Phi
-pop_size = 50       # 50 con sói
-max_iter = 100      # 100 vòng lặp
+pop_size = 30       # 30 sói
+max_iter = 50      # 50 vòng lặp
 
 print("--- Bắt đầu thả sói đi săn ---")
 
